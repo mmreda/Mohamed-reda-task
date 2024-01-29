@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mohamed Reda Task</string>
+    <string name="title_">Title:</string>
+    <string name="body_">Body:</string>
+    <string name="back">Back</string>
+    <string name="post_details">PostDetails</string>
+    <string name="error">Error</string>
+    <string name="server_error">Server Error</string>
+    <string name="no_internet">no internet</string>
+</resources>

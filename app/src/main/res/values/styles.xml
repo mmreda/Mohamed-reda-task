@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="txt_12_dark_jungle_green_semi_bold">
+        <item name="android:textSize">@dimen/_9ssp</item>
+        <item name="android:textColor">@color/dark_jungle_green</item>
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+    </style>
+
+    <style name="txt_24_dark_jungle_green_semi_bold">
+        <item name="android:textSize">@dimen/_18ssp</item>
+        <item name="android:textColor">@color/dark_jungle_green</item>
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+    </style>
+
+    <style name="txt_14_dark_jungle_green_semi_bold">
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:textColor">@color/dark_jungle_green</item>
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+    </style>
+
+    <style name="txt_17_aero_regular">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/aero</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+
+    <style name="txt_20_white_semi_bold">
+        <item name="android:textSize">@dimen/_16ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+    </style>
+
+</resources>

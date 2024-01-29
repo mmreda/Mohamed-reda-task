@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav.xml"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.mmreda.mohamedredatask.presentation.ui.main.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_postDetailsFragment"
+            app:destination="@id/postDetailsFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/postDetailsFragment"
+        android:name="com.mmreda.mohamedredatask.presentation.ui.main.home.details.PostDetailsFragment"
+        android:label="fragment_post_details"
+        tools:layout="@layout/fragment_post_details" >
+        <argument
+            android:name="post"
+            app:argType="com.mmreda.mohamedredatask.data.remote.dto.home.PostDto" />
+    </fragment>
+</navigation>
